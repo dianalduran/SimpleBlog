@@ -1,15 +1,17 @@
 .name-title {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   align-items: center;
 }
 
 .name-title h1 {
-  font-family: "Comfortaa", cursive;
-  font-size: 40px;
+  font-family: "Handlee", cursive;
+  font-size: 70px;
   border: 1px solid pink;
 }
 
 .name-title h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   border: 1px solid green;
 }

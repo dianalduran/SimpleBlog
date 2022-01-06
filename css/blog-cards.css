@@ -3,3 +3,9 @@
   height: 150px;
   border: 1px solid red;
 }
+
+#one {
+  background-image: url("/images/GraceGrocer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
