@@ -1,0 +1,31 @@
+@import "./layout.css";
+@import "./header.css";
+@import "./blog-cards.css";
+
+.box {
+  border: 1px solid blue;
+}
+
+.header {
+  grid-area: hd;
+}
+
+.sidebar {
+  grid-area: sd;
+}
+
+.content {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: ft;
+}
+
+.project-gallery-container {
+  display: flex;
+  flex-flow: row wrap;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  border: 2px solid yellow;
+}
